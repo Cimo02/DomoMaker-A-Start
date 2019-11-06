@@ -19,7 +19,7 @@ const login = (request, response) => {
   const req = request;
   const res = response;
 
-    // force cast to cover security flaws
+  // force cast to cover security flaws
   const username = `${req.body.username}`;
   const password = `${req.body.pass}`;
 
