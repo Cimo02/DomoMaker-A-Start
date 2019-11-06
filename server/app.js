@@ -72,7 +72,7 @@ app.use((err, req, res, next) => {
 
   console.log('Missing CSRF token');
   return false;
-}); 
+});
 
 router(app);
 
